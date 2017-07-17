@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.leapframework.org/schema/config">
+    <base-package>hello</base-package>
+
+    <properties>
+        <property name="db.driverClassName">com.mysql.jdbc.Driver</property>
+        <property name="db.url">jdbc:mysql://localhost:3306/demo-leap?useUnicode=true</property>
+        <property name="db.username">dev</property>
+        <property name="db.password">123456</property>
+    </properties>
+
+</config>
