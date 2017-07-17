@@ -15,6 +15,16 @@
         <logback.version>1.0.13</logback.version>
     </properties>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>9.4.5.v20170502</version>
+            </plugin>
+        </plugins>
+    </build>
+
     <dependencies>
         <!-- leap -->
         <dependency>
